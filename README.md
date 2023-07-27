@@ -3,7 +3,7 @@ This is the analysis code repository for Mendelian Randomisation (MR) study betw
 
 In this study, we systematically evaluated the causal relationship between 7 SUB traits and a wide range of health outcomes. We compared 11 MR methods both in simulation and real data. We also dissect the putative dosage-dependent effects of coffee and tea intake by integrating stratified regression, genetic correlation, and MR analyses.
 
-The improved GSMR software package (GSMR2) is formally released along with the paper. We have implemented the C++ version [GCTA-GSMR](https://yanglab.westlake.edu.cn/software/gcta/index.html#GSMR) within the GCTA software and also updated the [gsmr](https://yanglab.westlake.edu.cn/software/gsmr/) R package .
+The improved GSMR method (GSMR2) is formally released along with the paper. We have implemented the C++ version [GCTA-GSMR](https://yanglab.westlake.edu.cn/software/gcta/index.html#GSMR) within the GCTA software and also updated the [gsmr](https://yanglab.westlake.edu.cn/software/gsmr/) R package .
 
 Scripts are listed by the order in the methods section of the manuscript:
 
