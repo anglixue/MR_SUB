@@ -7,7 +7,14 @@ The improved GSMR method (GSMR2) is formally released along with the paper. We h
 
 Scripts are listed by the order in the methods section of the manuscript:
 
-1. 
+1. GWAS of 7 SUB traits
+2. Genetic correlation between SUB and common diseases
+3. Mendelian Randomisation (MR) between SUB and common diseases
+4. Validation using data from published studies
+5. Dosage-dependent analysis
+6. mtCOJO adjustment for covariates
+7. Bi-directional analysis
+8. Simulation
 
 
 # Citation
