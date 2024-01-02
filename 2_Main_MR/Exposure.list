@@ -1,0 +1,14 @@
+SI /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/SI/ukbEUR_SI_cojo.txt
+SI_NG_2019 /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/SI/Liu_et_al_2019/GWAS_SI_COJO.txt
+FS /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/FS/ukbEUR_FS_cojo.txt
+CS /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/CS/ukbEUR_CS_cojo.txt
+SC /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/SC/ukbEUR_SC_cojo.txt
+SC_NG_2019 /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/SC/Liu_et_al_NG_2019/GWAS_sig_GWAS.txt
+CPD /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/CPD/ukbEUR_CPD_cojo.txt
+CPD_NG_2019 /afm01/UQ/Q0923/phd_project/a.xue/data/GSCAN_summary/CigarettesPerDay_COJO_FORMAT.txt
+AC /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/AC_raw_current_log2_transform/ukbEUR_AC_raw_current_log2_transform_cojo.txt
+AC_correction /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/AC_not_ascertained_log2_adj_longitudinal_removed_underreport_all/ukbEUR_AC_not_ascertained_log2_adj_longitudinal_removed_underreport_all_cojo.txt
+AC_NG_2019 /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/AC/Liu_et_al_NG_2019/DrnkWk_sig_cojo.txt
+TI /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/TI/ukbEUR_TI_cojo.txt
+CI /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/CI/ukbEUR_CI_cojo.txt
+CI_adj_subtype /afm01/UQ/Q0923/phd_project/a.xue/proj/addiction/CI_adj_subtype/ukbEUR_CI_cojo.txt

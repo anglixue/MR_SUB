@@ -1,0 +1,18 @@
+#PBS -S /bin/bash
+#PBS -N FS_mtCOJO
+#PBS -A UQ-IMB-CNSG
+#PBS -o /shares/compbio/Group-Yang/a.xue/proj/addiction/GSMR/mtCOJO/stderr_FS_mtCOJO
+#PBS -e /shares/compbio/Group-Yang/a.xue/proj/addiction/GSMR/mtCOJO/stdout_FS_mtCOJO
+#PBS -l select=1:ncpus=7:intel=True:mem=12GB
+#PBS -l walltime=3:00:00
+
+cd /shares/compbio/Group-Yang/a.xue/proj/addiction/GSMR/mtCOJO/
+
+gcta="/shares/compbio/Group-Yang/uqzzhu1/bin/gcta64_24Jan2019"
+geno="/shares/compbio/Group-Yang/a.xue/proj/addiction/GSMR/gsmr_ref_UKB.txt"
+ld="/shares/compbio/Group-Yang/a.xue/app/ldsc/eur_w_ld_chr/"
+out="FS_mtCOJO"
+
+$gcta --mbfile $geno --mtcojo-file FS_mtCOJO.list --heidi-thresh 0.01 0.01 --gsmr-snp-min 1 --ref-ld-chr $ld --w-ld-chr $ld --out ${out} >> ${out}.log 2>&1 --thread-num 7
+
+

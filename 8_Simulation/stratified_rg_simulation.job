@@ -1,0 +1,19 @@
+#PBS -S /bin/bash
+#PBS -N simulation_stratified_rg
+#PBS -A UQ-IMB-CNSG
+#PBS -o /home/uqaxue/90days/uqaxue/proj/addiction/NHB_revision_05AUG2022/simulation/
+#PBS -e /home/uqaxue/90days/uqaxue/proj/addiction/NHB_revision_05AUG2022/simulation/
+#PBS -l select=1:ncpus=1:intel=True:mem=30GB
+#PBS -l walltime=48:00:00
+
+
+# cd /home/uqaxue/90days/uqaxue/proj/addiction/MR/simulation/
+cd /home/uqaxue/90days/uqaxue/proj/addiction/NHB_revision_05AUG2022/simulation/
+
+Rscript="/home/uqaxue/90days/uqaxue/software/R-4.0.5/bin/Rscript"
+
+touch stratified_rg_simulation.log
+
+$Rscript --vanilla  stratified_rg_simulation.R >> stratified_rg_simulation.log
+
+

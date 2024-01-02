@@ -1,0 +1,25 @@
+#PBS -S /bin/bash
+#PBS -N simulation_gsmr_Rsq_zp_0.03
+#PBS -A UQ-IMB-CNSG
+#PBS -o /home/uqaxue/90days/uqaxue/proj/addiction/NHB_revision_05AUG2022/simulation/Rsq_zp_0.03/
+#PBS -e /home/uqaxue/90days/uqaxue/proj/addiction/NHB_revision_05AUG2022/simulation/Rsq_zp_0.03/
+#PBS -l select=1:ncpus=1:intel=True:mem=3GB
+#PBS -l walltime=8:00:00
+#PBS -J 1-105
+
+
+# cd /home/uqaxue/90days/uqaxue/proj/addiction/MR/simulation/
+cd /home/uqaxue/90days/uqaxue/proj/addiction/NHB_revision_05AUG2022/simulation/
+
+if [ ! -d "Rsq_zp_0.03" ]; then
+    mkdir Rsq_zp_0.03
+fi
+
+i=$PBS_ARRAY_INDEX;
+
+Rscript="/home/uqaxue/90days/uqaxue/software/R-4.0.5/bin/Rscript"
+
+
+touch ./Rsq_zp_0.03/simulation_directional_model.log
+$Rscript --vanilla  simu-mr_directional_0.03.R ${i} >> ./Rsq_zp_0.03/simulation_directional_model.log
+
