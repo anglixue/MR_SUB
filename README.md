@@ -21,6 +21,6 @@ The improved GSMR method (GSMR2) is formally released along with the paper. We h
 We have provided GWAS summary statistics for seven SUB traits. Please find the download link [here](https://yanglab.westlake.edu.cn/pub_data.html).
 
 # Citation
-Angli Xue, Zhihong Zhu, Huanwei Wang, Longda Jiang, Peter M. Visscher, Jian Zeng, Jian Yang. Unravelling the complex causal effects of substance use behaviours on common diseases. ***Communications Medicine***. 2024. [Full text](https://doi.org/10.1038/s43856-024-00473-3)[Preprint](https://www.researchsquare.com/article/rs-3465061/v1)
+Angli Xue, Zhihong Zhu, Huanwei Wang, Longda Jiang, Peter M. Visscher, Jian Zeng, Jian Yang. Unravelling the complex causal effects of substance use behaviours on common diseases. ***Communications Medicine***. 2024. [[Full text](https://doi.org/10.1038/s43856-024-00473-3)] [[Preprint](https://www.researchsquare.com/article/rs-3465061/v1)]
 
 For questions, please email us at Angli Xue (a.xue@garvan.org.au) or Jian Yang (jian.yang@westlake.edu.cn)
