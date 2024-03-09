@@ -15,7 +15,11 @@ Scripts are listed by the order in the methods section of the manuscript:
 8. Simulation
 
 # GSMR2 software
-The improved GSMR method (GSMR2) is formally released along with the paper. We have implemented the C++ version [GCTA-GSMR](https://yanglab.westlake.edu.cn/software/gcta/index.html#GSMR) within the GCTA software and also updated the [gsmr](https://yanglab.westlake.edu.cn/software/gsmr/) R package. The GitHub repository of GSMR2 can be found [here](https://github.com/jianyanglab/gsmr2).
+The improved GSMR method (GSMR2) is formally released along with the paper. 
+
+C++ version: [GCTA-GSMR](https://yanglab.westlake.edu.cn/software/gcta/index.html#GSMR) within the GCTA software 
+
+R package: [GSMR2](https://github.com/jianyanglab/gsmr2) GitHub repository.
 
 # Download GWAS summary statistics
 We have provided GWAS summary statistics for seven SUB traits (tobacco smoking, alcohol consumption, coffee and tea intake). Please find the download link [here](https://yanglab.westlake.edu.cn/pub_data.html).
