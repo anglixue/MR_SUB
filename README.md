@@ -18,7 +18,7 @@ Scripts are listed by the order in the methods section of the manuscript:
 The improved GSMR method (GSMR2) is formally released along with the paper. We have implemented the C++ version [GCTA-GSMR](https://yanglab.westlake.edu.cn/software/gcta/index.html#GSMR) within the GCTA software and also updated the [gsmr](https://yanglab.westlake.edu.cn/software/gsmr/) R package. The GitHub repository of GSMR2 can be found [here](https://github.com/jianyanglab/gsmr2).
 
 # Download GWAS summary statistics
-We have provided GWAS summary statistics for seven SUB traits. Please find the download link [here](https://yanglab.westlake.edu.cn/pub_data.html).
+We have provided GWAS summary statistics for seven SUB traits (tobacco smoking, alcohol consumption, coffee and tea intake). Please find the download link [here](https://yanglab.westlake.edu.cn/pub_data.html).
 
 # Citation
 Angli Xue, Zhihong Zhu, Huanwei Wang, Longda Jiang, Peter M. Visscher, Jian Zeng, Jian Yang. Unravelling the complex causal effects of substance use behaviours on common diseases. ***Communications Medicine***. 2024. [[Full text](https://doi.org/10.1038/s43856-024-00473-3)] [[Preprint](https://www.researchsquare.com/article/rs-3465061/v1)]
